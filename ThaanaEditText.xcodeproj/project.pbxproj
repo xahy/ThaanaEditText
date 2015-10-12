@@ -14,6 +14,8 @@
 		077FCFE41BCB858500CCCC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */; };
 		077FCFEF1BCB858500CCCC5A /* ThaanaEditTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFEE1BCB858500CCCC5A /* ThaanaEditTextTests.swift */; };
 		077FCFFA1BCB858500CCCC5A /* ThaanaEditTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */; };
+		077FD0081BCB863200CCCC5A /* MVFaseyha.otf in Resources */ = {isa = PBXBuildFile; fileRef = 077FD0071BCB863200CCCC5A /* MVFaseyha.otf */; settings = {ASSET_TAGS = (); }; };
+		077FD00B1BCB899100CCCC5A /* ThaanaConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FD00A1BCB899100CCCC5A /* ThaanaConverter.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		077FCFF51BCB858500CCCC5A /* ThaanaEditTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaanaEditTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaanaEditTextUITests.swift; sourceTree = "<group>"; };
 		077FCFFB1BCB858500CCCC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077FD0071BCB863200CCCC5A /* MVFaseyha.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MVFaseyha.otf; sourceTree = "<group>"; };
+		077FD00A1BCB899100CCCC5A /* ThaanaConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThaanaConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				077FCFD91BCB858500CCCC5A /* AppDelegate.swift */,
+				077FD0091BCB863900CCCC5A /* ThaanaFont */,
 				077FCFDB1BCB858500CCCC5A /* ViewController.swift */,
 				077FCFDD1BCB858500CCCC5A /* Main.storyboard */,
 				077FCFE01BCB858500CCCC5A /* Assets.xcassets */,
 				077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */,
 				077FCFE51BCB858500CCCC5A /* Info.plist */,
+				077FD00A1BCB899100CCCC5A /* ThaanaConverter.swift */,
 			);
 			path = ThaanaEditText;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				077FCFFB1BCB858500CCCC5A /* Info.plist */,
 			);
 			path = ThaanaEditTextUITests;
+			sourceTree = "<group>";
+		};
+		077FD0091BCB863900CCCC5A /* ThaanaFont */ = {
+			isa = PBXGroup;
+			children = (
+				077FD0071BCB863200CCCC5A /* MVFaseyha.otf */,
+			);
+			name = ThaanaFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077FD0081BCB863200CCCC5A /* MVFaseyha.otf in Resources */,
 				077FCFE41BCB858500CCCC5A /* LaunchScreen.storyboard in Resources */,
 				077FCFE11BCB858500CCCC5A /* Assets.xcassets in Resources */,
 				077FCFDF1BCB858500CCCC5A /* Main.storyboard in Resources */,
@@ -257,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077FD00B1BCB899100CCCC5A /* ThaanaConverter.swift in Sources */,
 				077FCFDC1BCB858500CCCC5A /* ViewController.swift in Sources */,
 				077FCFDA1BCB858500CCCC5A /* AppDelegate.swift in Sources */,
 			);

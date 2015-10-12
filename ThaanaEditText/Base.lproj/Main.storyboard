@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MVFaseyha.otf">
+            <string>MVFaseyha</string>
+            <string>MVFaseyha</string>
+            <string>MVFaseyha</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThaanaEditText" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +22,107 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ތާނަ ސުވިފްޓް 2.0 ގަ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddi-x5-oIL">
+                                <rect key="frame" x="176" y="129" width="249" height="37"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249" id="Hax-pi-Mam"/>
+                                    <constraint firstAttribute="height" constant="73" id="oid-IC-Lbu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="25"/>
+                                <color key="textColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="oid-IC-Lbu"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlU-uJ-WXn">
+                                <rect key="frame" x="140" y="249" width="321" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OFh-P9-tSL">
+                                        <rect key="frame" x="8" y="0.0" width="305" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                        <connections>
+                                            <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="l9D-00-wvg"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95799340889999995" green="0.95799340889999995" blue="0.95799340889999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="321" id="9b7-i4-UCO"/>
+                                    <constraint firstAttribute="bottom" secondItem="OFh-P9-tSL" secondAttribute="bottom" id="CKR-LE-XR4"/>
+                                    <constraint firstAttribute="bottom" secondItem="OFh-P9-tSL" secondAttribute="bottom" id="Hej-yO-5Eu"/>
+                                    <constraint firstAttribute="trailing" secondItem="OFh-P9-tSL" secondAttribute="trailing" constant="8" id="OJF-iA-bBa"/>
+                                    <constraint firstAttribute="height" constant="30" id="RpD-zl-0ee"/>
+                                    <constraint firstAttribute="height" constant="30" id="e0y-Af-SMM"/>
+                                    <constraint firstAttribute="trailing" secondItem="OFh-P9-tSL" secondAttribute="trailing" constant="8" id="gZN-37-gqY"/>
+                                    <constraint firstItem="OFh-P9-tSL" firstAttribute="leading" secondItem="XlU-uJ-WXn" secondAttribute="leading" constant="8" id="hr1-3O-mSc"/>
+                                    <constraint firstItem="OFh-P9-tSL" firstAttribute="leading" secondItem="XlU-uJ-WXn" secondAttribute="leading" constant="8" id="iP8-7x-Ot2"/>
+                                    <constraint firstAttribute="width" constant="321" id="mdz-4s-kSU"/>
+                                    <constraint firstItem="OFh-P9-tSL" firstAttribute="top" secondItem="XlU-uJ-WXn" secondAttribute="top" id="mn8-58-j7b"/>
+                                    <constraint firstItem="OFh-P9-tSL" firstAttribute="top" secondItem="XlU-uJ-WXn" secondAttribute="top" id="ysa-wY-e7J"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9b7-i4-UCO"/>
+                                        <exclude reference="e0y-Af-SMM"/>
+                                        <exclude reference="Hej-yO-5Eu"/>
+                                        <exclude reference="OJF-iA-bBa"/>
+                                        <exclude reference="iP8-7x-Ot2"/>
+                                        <exclude reference="ysa-wY-e7J"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uve-wU-4XS">
+                                <rect key="frame" x="226" y="358" width="148" height="43"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="YiC-aI-cIN"/>
+                                    <constraint firstAttribute="width" constant="148" id="hmp-n3-2d9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="16"/>
+                                <state key="normal" title="ކްލިކް މީ">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3tw-dZ-C73"/>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="leading" secondItem="ddi-x5-oIL" secondAttribute="trailing" constant="-285" id="7wZ-Mc-wgg"/>
+                            <constraint firstItem="ddi-x5-oIL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9kp-RX-dGM"/>
+                            <constraint firstItem="uve-wU-4XS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DCZ-ay-Dg3"/>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K32-1B-Cls"/>
+                            <constraint firstItem="ddi-x5-oIL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="Lwj-bu-e9N"/>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="top" secondItem="ddi-x5-oIL" secondAttribute="bottom" constant="83" id="RHI-Fr-TWG"/>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="leading" secondItem="ddi-x5-oIL" secondAttribute="trailing" constant="-285" id="iHE-dF-7fP"/>
+                            <constraint firstItem="uve-wU-4XS" firstAttribute="top" secondItem="XlU-uJ-WXn" secondAttribute="bottom" constant="79" id="op1-31-wl9"/>
+                            <constraint firstItem="XlU-uJ-WXn" firstAttribute="leading" secondItem="ddi-x5-oIL" secondAttribute="trailing" constant="-285" id="tbB-vc-LLt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7wZ-Mc-wgg"/>
+                                <exclude reference="K32-1B-Cls"/>
+                                <exclude reference="iHE-dF-7fP"/>
+                                <exclude reference="tbB-vc-LLt"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="thaanatextfield" destination="OFh-P9-tSL" id="DaL-YA-A9v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="429"/>
         </scene>
     </scenes>
 </document>
