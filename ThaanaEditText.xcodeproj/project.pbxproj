@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077FCFDA1BCB858500CCCC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFD91BCB858500CCCC5A /* AppDelegate.swift */; };
+		077FCFDC1BCB858500CCCC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFDB1BCB858500CCCC5A /* ViewController.swift */; };
+		077FCFDF1BCB858500CCCC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FCFDD1BCB858500CCCC5A /* Main.storyboard */; };
+		077FCFE11BCB858500CCCC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077FCFE01BCB858500CCCC5A /* Assets.xcassets */; };
+		077FCFE41BCB858500CCCC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */; };
+		077FCFEF1BCB858500CCCC5A /* ThaanaEditTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFEE1BCB858500CCCC5A /* ThaanaEditTextTests.swift */; };
+		077FCFFA1BCB858500CCCC5A /* ThaanaEditTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077FCFEB1BCB858500CCCC5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077FCFCE1BCB858500CCCC5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077FCFD51BCB858500CCCC5A;
+			remoteInfo = ThaanaEditText;
+		};
+		077FCFF61BCB858500CCCC5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077FCFCE1BCB858500CCCC5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077FCFD51BCB858500CCCC5A;
+			remoteInfo = ThaanaEditText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077FCFD61BCB858500CCCC5A /* ThaanaEditText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaanaEditText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077FCFD91BCB858500CCCC5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077FCFDB1BCB858500CCCC5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077FCFDE1BCB858500CCCC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077FCFE01BCB858500CCCC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077FCFE31BCB858500CCCC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077FCFE51BCB858500CCCC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077FCFEA1BCB858500CCCC5A /* ThaanaEditTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaanaEditTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077FCFEE1BCB858500CCCC5A /* ThaanaEditTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaanaEditTextTests.swift; sourceTree = "<group>"; };
+		077FCFF01BCB858500CCCC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077FCFF51BCB858500CCCC5A /* ThaanaEditTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaanaEditTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaanaEditTextUITests.swift; sourceTree = "<group>"; };
+		077FCFFB1BCB858500CCCC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077FCFD31BCB858500CCCC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFE71BCB858500CCCC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFF21BCB858500CCCC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077FCFCD1BCB858500CCCC5A = {
+			isa = PBXGroup;
+			children = (
+				077FCFD81BCB858500CCCC5A /* ThaanaEditText */,
+				077FCFED1BCB858500CCCC5A /* ThaanaEditTextTests */,
+				077FCFF81BCB858500CCCC5A /* ThaanaEditTextUITests */,
+				077FCFD71BCB858500CCCC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077FCFD71BCB858500CCCC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077FCFD61BCB858500CCCC5A /* ThaanaEditText.app */,
+				077FCFEA1BCB858500CCCC5A /* ThaanaEditTextTests.xctest */,
+				077FCFF51BCB858500CCCC5A /* ThaanaEditTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077FCFD81BCB858500CCCC5A /* ThaanaEditText */ = {
+			isa = PBXGroup;
+			children = (
+				077FCFD91BCB858500CCCC5A /* AppDelegate.swift */,
+				077FCFDB1BCB858500CCCC5A /* ViewController.swift */,
+				077FCFDD1BCB858500CCCC5A /* Main.storyboard */,
+				077FCFE01BCB858500CCCC5A /* Assets.xcassets */,
+				077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */,
+				077FCFE51BCB858500CCCC5A /* Info.plist */,
+			);
+			path = ThaanaEditText;
+			sourceTree = "<group>";
+		};
+		077FCFED1BCB858500CCCC5A /* ThaanaEditTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				077FCFEE1BCB858500CCCC5A /* ThaanaEditTextTests.swift */,
+				077FCFF01BCB858500CCCC5A /* Info.plist */,
+			);
+			path = ThaanaEditTextTests;
+			sourceTree = "<group>";
+		};
+		077FCFF81BCB858500CCCC5A /* ThaanaEditTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */,
+				077FCFFB1BCB858500CCCC5A /* Info.plist */,
+			);
+			path = ThaanaEditTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077FCFD51BCB858500CCCC5A /* ThaanaEditText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077FCFFE1BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditText" */;
+			buildPhases = (
+				077FCFD21BCB858500CCCC5A /* Sources */,
+				077FCFD31BCB858500CCCC5A /* Frameworks */,
+				077FCFD41BCB858500CCCC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThaanaEditText;
+			productName = ThaanaEditText;
+			productReference = 077FCFD61BCB858500CCCC5A /* ThaanaEditText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077FCFE91BCB858500CCCC5A /* ThaanaEditTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077FD0011BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextTests" */;
+			buildPhases = (
+				077FCFE61BCB858500CCCC5A /* Sources */,
+				077FCFE71BCB858500CCCC5A /* Frameworks */,
+				077FCFE81BCB858500CCCC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077FCFEC1BCB858500CCCC5A /* PBXTargetDependency */,
+			);
+			name = ThaanaEditTextTests;
+			productName = ThaanaEditTextTests;
+			productReference = 077FCFEA1BCB858500CCCC5A /* ThaanaEditTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077FCFF41BCB858500CCCC5A /* ThaanaEditTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077FD0041BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextUITests" */;
+			buildPhases = (
+				077FCFF11BCB858500CCCC5A /* Sources */,
+				077FCFF21BCB858500CCCC5A /* Frameworks */,
+				077FCFF31BCB858500CCCC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077FCFF71BCB858500CCCC5A /* PBXTargetDependency */,
+			);
+			name = ThaanaEditTextUITests;
+			productName = ThaanaEditTextUITests;
+			productReference = 077FCFF51BCB858500CCCC5A /* ThaanaEditTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077FCFCE1BCB858500CCCC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = xahy;
+				TargetAttributes = {
+					077FCFD51BCB858500CCCC5A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					077FCFE91BCB858500CCCC5A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = R2W368422Q;
+						TestTargetID = 077FCFD51BCB858500CCCC5A;
+					};
+					077FCFF41BCB858500CCCC5A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = R2W368422Q;
+						TestTargetID = 077FCFD51BCB858500CCCC5A;
+					};
+				};
+			};
+			buildConfigurationList = 077FCFD11BCB858500CCCC5A /* Build configuration list for PBXProject "ThaanaEditText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077FCFCD1BCB858500CCCC5A;
+			productRefGroup = 077FCFD71BCB858500CCCC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077FCFD51BCB858500CCCC5A /* ThaanaEditText */,
+				077FCFE91BCB858500CCCC5A /* ThaanaEditTextTests */,
+				077FCFF41BCB858500CCCC5A /* ThaanaEditTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077FCFD41BCB858500CCCC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FCFE41BCB858500CCCC5A /* LaunchScreen.storyboard in Resources */,
+				077FCFE11BCB858500CCCC5A /* Assets.xcassets in Resources */,
+				077FCFDF1BCB858500CCCC5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFE81BCB858500CCCC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFF31BCB858500CCCC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077FCFD21BCB858500CCCC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FCFDC1BCB858500CCCC5A /* ViewController.swift in Sources */,
+				077FCFDA1BCB858500CCCC5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFE61BCB858500CCCC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FCFEF1BCB858500CCCC5A /* ThaanaEditTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077FCFF11BCB858500CCCC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FCFFA1BCB858500CCCC5A /* ThaanaEditTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077FCFEC1BCB858500CCCC5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077FCFD51BCB858500CCCC5A /* ThaanaEditText */;
+			targetProxy = 077FCFEB1BCB858500CCCC5A /* PBXContainerItemProxy */;
+		};
+		077FCFF71BCB858500CCCC5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077FCFD51BCB858500CCCC5A /* ThaanaEditText */;
+			targetProxy = 077FCFF61BCB858500CCCC5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077FCFDD1BCB858500CCCC5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077FCFDE1BCB858500CCCC5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077FCFE31BCB858500CCCC5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077FCFFC1BCB858500CCCC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077FCFFD1BCB858500CCCC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077FCFFF1BCB858500CCCC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThaanaEditText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077FD0001BCB858500CCCC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThaanaEditText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		077FD0021BCB858500CCCC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThaanaEditTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaEditText.app/ThaanaEditText";
+			};
+			name = Debug;
+		};
+		077FD0031BCB858500CCCC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThaanaEditTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaEditText.app/ThaanaEditText";
+			};
+			name = Release;
+		};
+		077FD0051BCB858500CCCC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThaanaEditTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThaanaEditText;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		077FD0061BCB858500CCCC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThaanaEditTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThaanaEditText;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077FCFD11BCB858500CCCC5A /* Build configuration list for PBXProject "ThaanaEditText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FCFFC1BCB858500CCCC5A /* Debug */,
+				077FCFFD1BCB858500CCCC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077FCFFE1BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FCFFF1BCB858500CCCC5A /* Debug */,
+				077FD0001BCB858500CCCC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		077FD0011BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FD0021BCB858500CCCC5A /* Debug */,
+				077FD0031BCB858500CCCC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		077FD0041BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FD0051BCB858500CCCC5A /* Debug */,
+				077FD0061BCB858500CCCC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077FCFCE1BCB858500CCCC5A /* Project object */;
+}
