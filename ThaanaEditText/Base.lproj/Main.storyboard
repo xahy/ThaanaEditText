@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="MVFaseyha.otf">
+        <array key="MVFaseyha.otf">
             <string>MVFaseyha</string>
-            <string>MVFaseyha</string>
-            <string>MVFaseyha</string>
-        </mutableArray>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -20,18 +23,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ތާނަ ސުވިފްޓް 2.0 ގަ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddi-x5-oIL">
-                                <rect key="frame" x="176" y="129" width="249" height="37"/>
-                                <animations/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ތާނަ ސުވިފްޓް 3.0 ގަ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddi-x5-oIL">
+                                <rect key="frame" x="63" y="129" width="249" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="249" id="Hax-pi-Mam"/>
                                     <constraint firstAttribute="height" constant="73" id="oid-IC-Lbu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="25"/>
-                                <color key="textColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -40,11 +42,10 @@
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlU-uJ-WXn">
-                                <rect key="frame" x="140" y="249" width="321" height="30"/>
+                                <rect key="frame" x="27" y="249" width="321" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OFh-P9-tSL">
                                         <rect key="frame" x="8" y="0.0" width="305" height="30"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                         <connections>
@@ -52,8 +53,7 @@
                                         </connections>
                                     </textField>
                                 </subviews>
-                                <animations/>
-                                <color key="backgroundColor" red="0.95799340889999995" green="0.95799340889999995" blue="0.95799340889999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.95799340889999995" green="0.95799340889999995" blue="0.95799340889999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="321" id="9b7-i4-UCO"/>
                                     <constraint firstAttribute="bottom" secondItem="OFh-P9-tSL" secondAttribute="bottom" id="CKR-LE-XR4"/>
@@ -80,21 +80,19 @@
                                 </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uve-wU-4XS">
-                                <rect key="frame" x="226" y="358" width="148" height="43"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="113.5" y="358" width="148" height="43"/>
+                                <color key="backgroundColor" red="0.86865666480000003" green="0.39507642430000001" blue="0.42466488260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="YiC-aI-cIN"/>
                                     <constraint firstAttribute="width" constant="148" id="hmp-n3-2d9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MVFaseyha" family="MV Faseyha" pointSize="16"/>
                                 <state key="normal" title="ކްލިކް މީ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XlU-uJ-WXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3tw-dZ-C73"/>
                             <constraint firstItem="XlU-uJ-WXn" firstAttribute="leading" secondItem="ddi-x5-oIL" secondAttribute="trailing" constant="-285" id="7wZ-Mc-wgg"/>
