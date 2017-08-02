@@ -12,7 +12,7 @@ struct Thaana {
     
     static let emptyThaanaString:String = " "+(NSString(format:"\u{202B}") as String)
     
-    func convertToThaana(txt : String) -> String {
+    func convertToThaana(_ txt : String) -> String {
         
         
         if(txt.isEmpty) { return " "+(NSString(format:"\u{202B}") as String) }
@@ -132,7 +132,7 @@ struct Thaana {
             default:
                 break
             }
-            i++
+            i += 1
         }
         
         

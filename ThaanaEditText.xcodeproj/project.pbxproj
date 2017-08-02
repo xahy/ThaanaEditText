@@ -14,8 +14,8 @@
 		077FCFE41BCB858500CCCC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FCFE21BCB858500CCCC5A /* LaunchScreen.storyboard */; };
 		077FCFEF1BCB858500CCCC5A /* ThaanaEditTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFEE1BCB858500CCCC5A /* ThaanaEditTextTests.swift */; };
 		077FCFFA1BCB858500CCCC5A /* ThaanaEditTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FCFF91BCB858500CCCC5A /* ThaanaEditTextUITests.swift */; };
-		077FD0081BCB863200CCCC5A /* MVFaseyha.otf in Resources */ = {isa = PBXBuildFile; fileRef = 077FD0071BCB863200CCCC5A /* MVFaseyha.otf */; settings = {ASSET_TAGS = (); }; };
-		077FD00B1BCB899100CCCC5A /* ThaanaConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FD00A1BCB899100CCCC5A /* ThaanaConverter.swift */; settings = {ASSET_TAGS = (); }; };
+		077FD0081BCB863200CCCC5A /* MVFaseyha.otf in Resources */ = {isa = PBXBuildFile; fileRef = 077FD0071BCB863200CCCC5A /* MVFaseyha.otf */; };
+		077FD00B1BCB899100CCCC5A /* ThaanaConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FD00A1BCB899100CCCC5A /* ThaanaConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,15 +206,18 @@
 				TargetAttributes = {
 					077FCFD51BCB858500CCCC5A = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
 					};
 					077FCFE91BCB858500CCCC5A = {
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = R2W368422Q;
+						LastSwiftMigration = 0830;
 						TestTargetID = 077FCFD51BCB858500CCCC5A;
 					};
 					077FCFF41BCB858500CCCC5A = {
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = R2W368422Q;
+						LastSwiftMigration = 0830;
 						TestTargetID = 077FCFD51BCB858500CCCC5A;
 					};
 				};
@@ -419,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -431,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -442,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaEditText.app/ThaanaEditText";
 			};
 			name = Debug;
@@ -454,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaEditText.app/ThaanaEditText";
 			};
 			name = Release;
@@ -465,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ThaanaEditText;
 				USES_XCTRUNNER = YES;
 			};
@@ -477,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mv.xahy.ThaanaEditTextUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ThaanaEditText;
 				USES_XCTRUNNER = YES;
 			};
@@ -501,6 +510,7 @@
 				077FD0001BCB858500CCCC5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		077FD0011BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +519,7 @@
 				077FD0031BCB858500CCCC5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		077FD0041BCB858500CCCC5A /* Build configuration list for PBXNativeTarget "ThaanaEditTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +528,7 @@
 				077FD0061BCB858500CCCC5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
