@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction func onEditingChanged(sender: UITextField) {
+    @IBAction func onEditingChanged(_ sender: UITextField) {
         let thaana = Thaana()
         let text = thaanatextfield.text;
         thaanatextfield.text = thaana.convertToThaana(text!)
