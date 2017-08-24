@@ -10,12 +10,12 @@ import Foundation
 
 struct Thaana {
     
-    static let emptyThaanaString:String = " "+(NSString(format:"\u{202B}") as String)
+    static let emptyThaanaString:String = ""+(NSString(format:"\u{200F}") as String)
     
     func convertToThaana(_ txt : String) -> String {
         
         
-        if(txt.isEmpty) { return " "+(NSString(format:"\u{202B}") as String) }
+        if(txt.isEmpty) { return ""+(NSString(format:"\u{200F}") as String) }
         
         
         var chars = Array(txt.characters)

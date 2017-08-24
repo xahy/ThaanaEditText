@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         thaanatextfield.text = Thaana.emptyThaanaString
+        thaanatextfield.textAlignment = .right
         // Do any additional setup after loading the view, typically from a nib.
     }
     
